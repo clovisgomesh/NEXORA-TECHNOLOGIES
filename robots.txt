@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://clovisgomesh.github.io/NEXORA-TECHNOLOGIES/sitemap.xml
