@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Nexora Technologies</title>
+    <meta name="description" content="Get in touch with Nexora Technologies for custom software development, web systems, and AI automation solutions. Let's scale your business globally.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/icons/favicon.ico">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                NEXORA<span class="highlight">.TECH</span>
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="services.html#ai-agency" class="nav-link ai-badge">AI Agency</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="contact.html" class="nav-link btn-nav active">Let's Talk</a>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="hero" style="padding: 160px 0 80px;">
+        <div class="container">
+            <div class="hero-badge"><span>Global Discovery & Support</span></div>
+            <h1>Let's Build Something <span class="gradient-text">Extraordinary</span></h1>
+            <p>Fill out the form below to start a conversation with our engineering and artificial intelligence leadership team.</p>
+        </div>
+    </section>
+
+    <!-- Form Container -->
+    <section class="section" style="padding-top: 20px;">
+        <div class="container" style="max-width: 800px;">
+            <div class="service-card" style="padding: 3rem; background: var(--bg-secondary);">
+                <form id="contactForm" action="#" method="POST">
+                    
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem;">
+                        <div>
+                            <label style="display: block; font-size: 0.9rem; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-main);">Full Name *</label>
+                            <input type="text" name="name" required placeholder="John Doe" style="width: 100%; padding: 0.85rem 1rem; background: var(--bg-primary); border: 1px solid var(--border-color); border-radius: 8px; color: #fff; font-family: var(--font-main);">
+                        </div>
+                        <div>
+                            <label style="display: block; font-size: 0.9rem; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-main);">Work Email *</label>
+                            <input type="email" name="email" required placeholder="john@company.com" style="width: 100%; padding: 0.85rem 1rem; background: var(--bg-primary); border: 1px solid var(--border-color); border-radius: 8px; color: #fff; font-family: var(--font-main);">
+                        </div>
+                    </div>
+
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem;">
+                        <div>
+                            <label style="display: block; font-size: 0.9rem; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-main);">Company / Startup</label>
+                            <input type="text" name="company" placeholder="Nexora Corp" style="width: 100%; padding: 0.85rem 1rem; background: var(--bg-primary); border: 1px solid var(--border-color); border-radius: 8px; color: #fff; font-family: var(--font-main);">
+                        </div>
+                        <div>
+                            <label style="display: block; font-size: 0.9rem; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-main);">Primary Service Interest *</label>
+                            <select name="service" required style="width: 100%; padding: 0.85rem 1rem; background: var(--bg-primary); border: 1px solid var(--border-color); border-radius: 8px; color: #fff; font-family: var(--font-main);">
+                                <option value="" disabled selected>Select a service</option>
+                                <option value="ai-agency">AI Agency & Automations</option>
+                                <option value="web-systems">Custom Web Systems & Apps</option>
+                                <option value="ecommerce">E-Commerce & Portals</option>
+                                <option value="institutional">Institutional Site / Landing Page</option>
+                                <option value="seo-speed">Technical SEO & Speed Optimization</option>
+                                <option value="other">Other Digital Solutions</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div style="margin-bottom: 1.5rem;">
+                        <label style="display: block; font-size: 0.9rem; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-main);">Project Details & Objectives *</label>
+                        <textarea name="message" rows="5" required placeholder="Tell us about your goals, timeline, and core requirements..." style="width: 100%; padding: 0.85rem 1rem; background: var(--bg-primary); border: 1px solid var(--border-color); border-radius: 8px; color: #fff; font-family: var(--font-main); resize: vertical;"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-large" style="width: 100%;">Submit Project Inquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="index.html" class="logo">NEXORA<span class="highlight">.TECH</span></a>
+                <p>Empowering global enterprises with cutting-edge software engineering and artificial intelligence.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="services.html">Custom Web Systems</a></li>
+                    <li><a href="services.html#ai-agency">AI Integration</a></li>
+                    <li><a href="services.html">E-Commerce & Portals</a></li>
+                    <li><a href="services.html">Technical SEO & Speed</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Global Reach</h4>
+                <p>Serving clients across North America, Europe, Latin America, and Asia with native English communication and delivery.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Nexora Technologies. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/analytics.js"></script>
+</body>
+</html>
